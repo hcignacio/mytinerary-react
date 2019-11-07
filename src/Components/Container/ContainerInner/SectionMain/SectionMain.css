@@ -1,6 +1,10 @@
-.SectionMainStyle {
+/* .SectionMainStyle {
     background-color: rgb(155, 160, 184);
     color           : rgb(238, 238, 238);
     text-align      : center;
     border          : 5px solid rgb(250, 151, 151);
+} */
+
+.MainLogo {
+    width: 100%;;
 }

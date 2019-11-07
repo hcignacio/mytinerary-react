@@ -8,7 +8,6 @@ export default class ContainerInner extends Component {
     render() {
         return (
             <div className="ContainerInnerMain">
-                <h2>ContainerInner</h2>
                 <SectionMain />
                 <SectionCenter />
                 <SectionCarousel />

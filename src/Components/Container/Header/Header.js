@@ -6,7 +6,6 @@ export default class Header extends Component {
   render() {
     return (
       <div className="MainHeader">
-        <h1>This is the Header</h1>
         <NavbarMain />
       </div>
     )
