@@ -1,0 +1,6 @@
+.FooterStyle {
+    background-color: rgb(243, 93, 93);
+    color           : rgb(105, 105, 105);
+    text-align      : center;
+    border          : 5px solid rgb(82, 82, 82);
+}

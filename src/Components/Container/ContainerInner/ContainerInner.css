@@ -1,0 +1,6 @@
+.ContainerInnerMain {
+    background-color: rgb(24, 66, 255);
+    color           : rgb(245, 245, 245);
+    text-align      : center;
+    border          : 5px solid rgb(255, 240, 24);
+}

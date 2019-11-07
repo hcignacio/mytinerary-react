@@ -1,0 +1,6 @@
+.MainNavbar {
+    background-color: rgb(255, 126, 126);
+    color           : rgb(68, 68, 68);
+    text-align      : center;
+    border          : 5px solid rgb(166, 219, 255);
+}

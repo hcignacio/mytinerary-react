@@ -1,0 +1,6 @@
+.SectionCarouselStyle {
+    background-color: rgb(155, 160, 184);
+    color           : rgb(0, 32, 212);
+    text-align      : center;
+    border          : 5px solid rgb(227, 255, 218);
+}
