@@ -8,7 +8,7 @@ export default class Container extends Component {
     render() {
         return (
             <div className="MainContainer">
-                <Header />
+                {/* <Header /> */}
                 <ContainerInner />
                 <Footer />
             </div>
