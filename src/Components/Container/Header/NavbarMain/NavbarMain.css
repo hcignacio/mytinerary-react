@@ -5,6 +5,21 @@
     border          : 5px solid rgb(166, 219, 255);
 }
  */
+
 .MainIcon {
     background-image: url("../../../../img/homeIcon.png");
+}
+
+.NavMainDrop {
+    position: absolute !important;
+    top: 15%;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.NavOptions {
+    position: absolute;
+    right: 0;
 }

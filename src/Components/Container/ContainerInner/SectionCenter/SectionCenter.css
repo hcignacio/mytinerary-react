@@ -8,9 +8,9 @@
 
 .Slogan {
     background-color: rgb(255, 255, 255);
-    color           : rgb(80, 80, 80);
+    color           : #343a40;
 }
 
 .ArrowImage {
-    height: 100px;
+    height: 50px;
 }

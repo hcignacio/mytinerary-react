@@ -5,12 +5,12 @@ import arrow from "../../../../img/circled-right-2.png";
 export default class SectionCenter extends Component {
   render() {
     return (
-      <div className="SectionCenterStyle">
+      <div className="SectionCenterStyle px-4">
         <p className="Slogan text-center">
           Find you perfect trip, designed by insiders
           who know and love thier cities
         </p>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center my-2">
           <img src={arrow} alt="Logo" className="ArrowImage" />
         </div>
       </div>
