@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./SectionCenter.css";
 import arrow from "../../../../img/circled-right-2.png";
+import { Link } from 'react-router-dom';
 
 export default class SectionCenter extends Component {
   render() {
@@ -11,7 +12,10 @@ export default class SectionCenter extends Component {
           who know and love thier cities
         </p>
         <div className="row justify-content-center my-2">
-          <img src={arrow} alt="Logo" className="ArrowImage" />
+          <Link to="/cities" >
+            <img src={arrow} alt="Logo" className="ArrowImage" />
+          </Link>
+
         </div>
       </div>
     )

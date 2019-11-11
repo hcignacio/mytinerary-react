@@ -10,9 +10,9 @@
     background-image: url("../../../../img/homeIcon.png");
 }
 
-.NavMainDrop {
+.Home .NavMainDrop {
     position: absolute !important;
-    top: 15%;
+    top     : 15%;
 }
 
 .navbar-nav .dropdown-menu {
@@ -21,5 +21,21 @@
 
 .NavOptions {
     position: absolute;
-    right: 0;
+    right   : 0;
 }
+
+.dd-list {
+    list-style-type: none
+}
+
+.nav-list a {
+    color: white;
+}
+
+.nav-list a:active {
+    color: white;
+}
+
+/* .MainNavbar a {
+    color: white;
+} */
