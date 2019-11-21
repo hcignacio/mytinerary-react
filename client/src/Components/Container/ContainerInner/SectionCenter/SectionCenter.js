@@ -12,7 +12,7 @@ export default class SectionCenter extends Component {
           who know and love thier cities
         </p>
         <div className="row justify-content-center my-2">
-          <Link to="/cities" >
+          <Link to="/cities/all" >
             <img src={arrow} alt="Logo" className="ArrowImage" />
           </Link>
 

@@ -20,12 +20,12 @@ export default class NavbarMain extends Component {
 
           <Nav className="mr-auto">
             <NavDropdown title="User" id="collasible-nav-dropdown" className="NavMainDrop">
-              <Link className="dropdown-item" role="button" to="/login">
+              <NavDropdown.Item as={Link} className="dropdown-item" role="button" to="/login">
                 Log in
-              </Link>
-              <Link className="dropdown-item" role="button" to="/create-account">
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} className="dropdown-item" role="button" to="/create-account">
                 Create account
-              </Link>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <div className="NavOption">
@@ -33,7 +33,7 @@ export default class NavbarMain extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="my-3 nav-list">
                 <button className="btn bg-dark border-0 mr-3" data-toggle="collapse" data-target="#menu">
-                  <Link to="/cities" className="text-white Home">
+                  <Link to="/cities/all" className="text-white Home">
                     Cities
                   </Link>
                 </button>
@@ -48,7 +48,7 @@ export default class NavbarMain extends Component {
             </Navbar.Collapse>
           </div>
         </Navbar>
-      </div>
+      </div >
     )
   }
 }
