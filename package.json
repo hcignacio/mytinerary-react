@@ -12,9 +12,9 @@
   "author": "Ignacio Henin Coldorf",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "concurrently": "^5.0.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.7.10"
   },
   "devDependencies": {
